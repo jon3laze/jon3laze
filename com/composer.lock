@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a8f3e8753229d25571416b4efc7adef1",
+    "content-hash": "d5e34082f6d0abe86db60f262d3bbf50",
     "packages": [
         {
             "name": "composer/installers",
@@ -673,6 +673,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/edit-author-slug/"
+        },
+        {
+            "name": "wpackagist-plugin/enlighter",
+            "version": "3.8.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/enlighter/",
+                "reference": "tags/3.8.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/enlighter.3.8.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/enlighter/"
         },
         {
             "name": "wpackagist-plugin/gutenberg",
