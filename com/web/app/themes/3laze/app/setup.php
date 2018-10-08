@@ -34,6 +34,11 @@ add_action('after_setup_theme', function () {
     add_theme_support('soil-relative-urls');
 
     /**
+     * Add custom logo
+     */
+    add_theme_support( 'custom-logo' );
+
+    /**
      * Enable plugins to manage the document title
      * @link https://developer.wordpress.org/reference/functions/add_theme_support/#title-tag
      */

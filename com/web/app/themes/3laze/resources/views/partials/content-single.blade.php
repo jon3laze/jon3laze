@@ -1,5 +1,8 @@
 <article @php post_class() @endphp>
   <header>
+    @if ( has_post_thumbnail() )
+      {{ the_post_thumbnail() }}
+    @endif
     <h1 class="entry-title">{{ get_the_title() }}</h1>
     @include('partials/entry-meta')
   </header>

@@ -1,11 +1,47 @@
+.banner {
+  @apply py-4 px-2 mb-4 bg-black shadow-lg border border-grey-light shadow-lg;
+
+  background-image: url('../images/brick-wall.png');
+}
+
 .banner .nav {
   @apply list-reset flex flex-wrap;
 }
 
 .banner .nav a {
-  @apply inline-block px-4 py-2 border-none;
+  @apply inline-block px-1 py-2 border-none;
 
   &:hover {
     color: darken(#525ddc, 30%);
+  }
+}
+
+.banner .nav .nav-item {
+  @apply bg-white text-blue-darker font-semibold py-2 px-4 border border-grey-light rounded shadow-lg;
+
+  &:hover {
+    @apply bg-transparent border-transparent text-white;
+  }
+}
+
+.menu-all-pages-container {
+  ul {
+    @apply list-reset flex;
+
+    li {
+      @apply text-lg;
+
+      .sub-menu {
+        display: none;
+      }
+    }
+  }
+}
+
+.custom-logo {
+  @apply .opacity-50;
+
+  &:hover {
+    @apply .opacity-75;
   }
 }
