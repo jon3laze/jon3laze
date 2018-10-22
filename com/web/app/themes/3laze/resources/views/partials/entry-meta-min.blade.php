@@ -8,7 +8,7 @@
     <time class="updated italic text-grey text-xs font-hairline" datetime="{{ get_post_time('c', true) }}">{{ get_the_date() }}</time>
     in -
     <a href="/{{ esc_html( get_the_category()[0]->name )  }}">
-      <code class="font-hairline bg-black text-green-light">{{ esc_html( get_the_category()[0]->name ) }}</code>
+      <code class="font-hairline">{{ esc_html( get_the_category()[0]->name ) }}</code>
     </a>
   </span>
 </div>
